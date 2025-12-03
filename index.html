@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissors</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class='container'>
+        <header class="site-header">
+            <h1>Rock Paper Scissors</h1>
+            <div class="score-badge">Score: <span class="js-score">0</span></div>
+        </header>
+
+        <div class="choices">
+            <img id="rock" src="rock.jpg.png" alt="Rock" width="200" height="200">
+            <img id="paper" src="paper.jpg.png" alt="Paper" width="200" height="200">
+            <img id="scissors" src="scissors.jpg.png" alt="Scissors" width="200" height="200">
+        </div>
+
+        <p class="result"></p>
+        <p class="move"></p>
+
+        <div class="controls">
+            <button id="reset">Reset Score</button>
+            <button class="js-autoplay">Auto play</button>
+        </div>
+
+        <div class="footer">Made with ❤️ — stylish UI by stylesheet</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
